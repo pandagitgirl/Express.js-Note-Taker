@@ -1,0 +1,25 @@
+{
+  "name": "express.js-note-taker",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandagitgirl/Express.js-Note-Taker.git"
+  },
+  "keywords": [
+    "note",
+    "taker",
+    "npm",
+    "json"
+  ],
+  "author": "\"\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandagitgirl/Express.js-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/pandagitgirl/Express.js-Note-Taker#readme"
+}
