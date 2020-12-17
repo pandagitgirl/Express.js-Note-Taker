@@ -3,7 +3,7 @@ const dbjson = require("../data/db.json");
 const fs = require("fs");
 
 //  Route handlers
-router.get("/notes", (req, res) =>
+router.get("./notes", (req, res) =>
   fs.readFile("data/db.json", "utf8", (err, notes) => {
     if (err) {
       console.error(err);
@@ -15,7 +15,7 @@ router.get("/notes", (req, res) =>
   })
 );
 
-router.post("/notes", (req, res) => {
+router.post("./notes", (req, res) => {
   let notes = req.bodyfs.readFile("data/db.json", "utf8", (err, data) => {
     if (err) {
       console.log(err);
