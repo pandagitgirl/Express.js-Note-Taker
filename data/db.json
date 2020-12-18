@@ -1,9 +1,7 @@
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "1608186282148" }
-}
+[
+  {
+    "title": "Test",
+    "text": "Test",
+    "id": "e1356850-0f0c-11eb-86a6-0b297e79cf71"
+  }
+]
