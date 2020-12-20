@@ -16,13 +16,13 @@ router.get("/notes", (req, res) =>
 );
 
 router.post("/notes", (req, res) => {
-  let notes = req.bodyfs.readFile("data/db.json", "utf8", (err, data) => {
+  fs.readFile("data/db.json", "utf8", (err, data) => {
     if (err) {
       console.log(err);
       return;
     }
     let oldNotes = JSON.parse(data);
-    let newNotes = [...oldNotes, notes];
+    let newNotes = [...oldNotes, req.body];
 
     fs.writeFile("data/db.json", JSON.stringify(newNotes), (error) => {
       if (error) {
